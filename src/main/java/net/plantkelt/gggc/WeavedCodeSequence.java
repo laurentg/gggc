@@ -29,7 +29,7 @@ import java.util.Random;
 public class WeavedCodeSequence implements CodeSequence {
 
 	/* Set to true to dump generated grid to stderr. */
-	private static final boolean DUMP_GRID = true;
+	private static final boolean DUMP_GRID = false;
 
 	private long key;
 	private int X;
