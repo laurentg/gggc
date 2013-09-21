@@ -6,9 +6,14 @@
     <artifactId>gggc</artifactId>
     <version>0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
-
     <name>gggc</name>
-    <url>http://maven.apache.org</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/laurentg/gggc.git</connection>
+        <developerConnection>scm:git:git@github.com:laurentg/gggc.git</developerConnection>
+        <url>https://github.com/laurentg/gggc</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -52,6 +57,11 @@
     </dependencies>
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.0</version>
+            </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.0</version>
