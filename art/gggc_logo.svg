@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="gggc_logo.svg">
+   sodipodi:docname="gggc_logo.svg"
+   inkscape:export-filename="/home/laurent/workspace/gggc/art/gggc_logo.png"
+   inkscape:export-xdpi="58.630001"
+   inkscape:export-ydpi="58.630001">
   <defs
      id="defs4">
     <linearGradient
@@ -179,18 +182,6 @@
          stdDeviation="4.2304857"
          id="feGaussianBlur4410" />
     </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4528"
-       x="-0.16791375"
-       width="1.3358275"
-       y="-0.54614372"
-       height="2.0922874">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="22.75715"
-         id="feGaussianBlur4530" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -218,7 +209,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -228,7 +219,10 @@
      id="layer1">
     <g
        id="g4496"
-       transform="matrix(0.96128082,0.27557067,-0.27557067,0.96128082,80.160726,-91.506692)">
+       transform="matrix(0.96657486,0.25638456,-0.25638456,0.96657486,73.629448,-85.758007)"
+       inkscape:export-filename="/home/laurent/workspace/gggc/art/gggc_logo.png"
+       inkscape:export-xdpi="58.91"
+       inkscape:export-ydpi="58.91">
       <g
          transform="matrix(0.97321001,-0.22991798,0.22991798,0.97321001,-128.05311,-365.5403)"
          id="g4260">
