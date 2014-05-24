@@ -51,7 +51,7 @@ public class Main {
 
 		if (args.length == 0)
 			throw new IllegalArgumentException(
-					"Usage: java -jar gggc.jar <config.conf> ...");
+					"Usage: gggc <config.conf> ...");
 
 		LayoutParameters layoutParams = new LayoutParameters();
 		Map<String, CodeSequence> codes = new HashMap<String, CodeSequence>();
