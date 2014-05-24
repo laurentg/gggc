@@ -4,4 +4,9 @@
 *.jar
 *.war
 *.ear
-/target/
+/build/
+.classpath
+.project
+.settings/
+.gradle/
+gradle.properties
