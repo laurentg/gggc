@@ -38,14 +38,12 @@ import org.ini4j.Wini;
  */
 public class Main {
 
-	public static final String VERSION = "0.3-SNAPSHOT";
-
 	public static void main(String[] args) throws Exception {
 
 		System.out
 				.println(String
 						.format("GGGC version %s - Copyright (c) 2011, 2012 Laurent Grégoire <laurent.gregoire@gmail.com>",
-								VERSION));
+								getVersion()));
 		System.out
 				.println("Concédée sous licence EUPL, version 1.1 ou ultérieure.");
 		System.out
@@ -184,5 +182,13 @@ public class Main {
 			writer2.render();
 		}
 		System.out.println("OK!");
+	}
+
+	private static String getVersion() {
+		Package thePackage = Main.class.getPackage();
+		String implementationVersion = thePackage.getImplementationVersion();
+		if (implementationVersion == null)
+			return "(unknown)";
+		return implementationVersion;
 	}
 }
